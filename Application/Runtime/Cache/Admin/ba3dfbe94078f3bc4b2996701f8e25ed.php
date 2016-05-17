@@ -3,13 +3,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>资金记录 用户中心 - 大融小贷</title>
-    <link href="/Public/css/UserCSS.css" rel="stylesheet" type="text/css" />
-    <script src="/Public/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/Public/js/ops.js" type="text/javascript"></script>
-    <script src="/Public/js/UserJS.js" type="text/javascript"></script>
-    <script src="/Public/js/jquery.datepicker.min.js" type="text/javascript"></script>
-    <script src="/Public/js/jquery.template.min.js" type="text/javascript"></script>
-    <script src="/Public/js/funds.js" type="text/javascript"></script>
+    <link href="/php10/RFS/Public/css/UserCSS.css" rel="stylesheet" type="text/css" />
+    <script src="/php10/RFS/Public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/php10/RFS/Public/js/ops.js" type="text/javascript"></script>
+    <script src="/php10/RFS/Public/js/UserJS.js" type="text/javascript"></script>
+    <script src="/php10/RFS/Public/js/jquery.datepicker.min.js" type="text/javascript"></script>
+    <script src="/php10/RFS/Public/js/jquery.template.min.js" type="text/javascript"></script>
+    <script src="/php10/RFS/Public/js/funds.js" type="text/javascript"></script>
 </head>
 <body>   
     <div class="row">
@@ -19,30 +19,30 @@
                     <h3 class="t1">
                         我的大融小贷<span title="折叠"></span></h3>
                     <ul class="sub">
-                        <li><a class="current" href="/index.php/Admin/Admin/index">个人主页</a></li>
-                        <li><a href="/index.php/Admin/Admin/personal">个人资料</a></li>
-                        <li><a href="/index.php/Admin/Admin/information">认证管理</a></li>
+                        <li><a class="current" href="/php10/RFS/index.php/Admin/Admin/index">个人主页</a></li>
+                        <li><a href="/php10/RFS/index.php/Admin/Admin/personal">个人资料</a></li>
+                        <li><a href="/php10/RFS/index.php/Admin/Admin/information">认证管理</a></li>
                     </ul>
                 </li>
                 <li class="item" id="user_menu_funds" name="user_menu_funds">
                     <h3 class="t2">
-                        资金管理<span title="折叠"></span></h3>
+                        资源管理<span title="折叠"></span></h3>
                     <ul class="sub">
-                         <li><a href="/index.php/Admin/Admin/capital">资金记录</a></li>
+                         <li><a href="/php10/RFS/index.php/Admin/Admin/capital">资源类型</a></li>
                     </ul>
                 </li>
                 <li class="item" id="user_menu_invest" name="user_menu_invest">
                     <h3 class="t4">
                         理财管理<span title="折叠"></span></h3>
                     <ul class="sub">
-                       <li><a href="/index.php/Admin/Admin/investment">我的投资</a></li>
+                       <li><a href="/php10/RFS/index.php/Admin/Admin/investment">我的投资</a></li>
                     </ul>
                 </li>
                 <li class="item" id="user_menu_loan" name="user_menu_loan">
                     <h3 class="t3">
                         贷款管理<a name="user_login"></a><span title="折叠"></span></h3>
                     <ul class="sub">
-                        <li><a  href="/index.php/Admin/Admin/loan">我的贷款</a></li>
+                        <li><a  href="/php10/RFS/index.php/Admin/Admin/loan">我的贷款</a></li>
                     </ul>
                 </li>
             </ul>
