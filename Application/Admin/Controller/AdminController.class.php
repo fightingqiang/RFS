@@ -11,6 +11,17 @@ class AdminController extends Controller {
        $this->display();
     }
 
+
+     /**
+      * 后台登陆
+      *
+      */
+
+     public function login()
+     {
+        $this->display();
+     }
+
     /**
      * 个人资料
      *

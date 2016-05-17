@@ -27,9 +27,13 @@
                 </li>
                 <li class="item" id="user_menu_funds" name="user_menu_funds">
                     <h3 class="t2">
-                        资金管理<span title="折叠"></span></h3>
+                        资源管理<span title="折叠"></span></h3>
                     <ul class="sub">
-                         <li><a href="/php10/RFS/index.php/Admin/Admin/capital">资金记录</a></li>
+<<<<<<< HEAD
+                         <li><a href="/php10/RFS/index.php/Admin/Admin/capital">资源类型</a></li>
+=======
+                         <li><a href="/php10/RFS/index.php/Admin/Admin/capital">资源分类</a></li>
+>>>>>>> cd2762d252d231f50b7c69f19e9cd867f4dd1abe
                     </ul>
                 </li>
                 <li class="item" id="user_menu_invest" name="user_menu_invest">
