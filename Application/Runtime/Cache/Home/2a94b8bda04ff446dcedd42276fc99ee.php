@@ -1,221 +1,1 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Examples</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link href="/Public/index/css/main.css" rel="stylesheet">
-<script src="/Public/index/js/jquery-1.7.1.min.js"></script>
-<script>
-	$(function(){
-		$(".nav li").hover(function() {
-			$(".second-nav",this).slideDown(100);
-			/* Stuff to do when the mouse enters the element */
-		}, function() {
-			$(".second-nav",this).slideUp(100);
-			// $(".second-nav").hide();
-			/* Stuff to do when the mouse leaves the element */
-		});
-	})
-</script>
-</head>
-<body>
-    <div class="head">
-    	<div class="content">
-    		<div class="logo"><img src="images/logo3.png" height="101" width="172" alt=""></div>
-    		<div class="login-box">
-    			<a href="login.html" class="n2">登录</a>
-    			<a href="register.html" class="n1">注册</a>
-    		</div>
-    		<div class="nav">
-	    		<ul>
-	    			<li>
-	    				<a href="" class="current-nav">首页</a>
-	    			</li>
-	    			<li  style="position:relative;">
-	    				<a href="javascript:;" class="h-nav">平台特色</a>
-	    				<ul class="second-nav">
-	    					<li>
-	    						<a href="platform.html">平台介绍</a>
-	    					</li>
-	    					<li>
-	    						<a href="tools.html">开发工具</a>
-	    					</li>
-	    				</ul>
-	    			</li>
-	    			<li>
-	    				<a href="document.html">文档</a>
-	    			</li>
-	    			<li>
-	    				<a href="support.html">开发支持</a>
-	    			</li>
-	    			<li>
-	    				<a href="aboutus.html">关于我们</a>
-	    			</li>
-	    		</ul>
-    		</div>
-    	</div>
-    </div>
-    <div class="banner">
-    	<img src="images/banner.jpg" height="668" width="1919" alt="">
-    </div>
-    <div class="p-box">
-    	<div class="content">
-    		<h1>有视</h1>
-    		<h3>
-    			有视是基于WebRTC技术，为开发者和用户提供基于云端的实时在线交流服务平台。
-    			以开放API和SDK的方式提供文本信息传输、音视频通话、网络会议、屏幕共享等功能。
-    		</h3>
-    	</div>
-    </div>
-    <div style="clear:both;"></div>
-    <div class="p-box bg-grey">
-    	<div class="content">
-    		<ul>
-    			<li class="trangle">
-    				<a href="">
-    					<img src="images/img1.png" height="215" width="198" alt="">
-    					<span>
-    						<h2>有视服务平台</h2>
-    						<p>有视是一个创新、可靠、可扩展的服务平台;它旨在为巨大的通话及数据传输提供服务。</p>
-    					</span>
-    				</a>
-    			</li>
-    			<li class="trangle">
-    				<a href="">
-    					<img src="images/img2.png" height="215" width="198" alt="">
-    					<span>
-    						<h2>APIs和SDKs</h2>
-    						<p>提供JavaScript library,Android SDK、IOS SDK供开发人员集成在线实时通讯功能到Web和移动设备中。</p>
-    					</span>
-    				</a>
-    			</li>
-    			<li class="trangle">
-    				<a href="">
-    					<img src="images/img3.png" height="215" width="198" alt="">
-    					<span>
-    						<h2>高级前沿的技术</h2>
-    						<p>基于下一代WebRTC技术，简单灵活易用，可轻松集成通讯功能。</p>
-    					</span>
-    				</a>
-    			</li>
-    		</ul>
-    	</div>
-    </div>
-    <div class="p-box">
-    	<div class="content">
-    		<h1>场景化应用</h1>
-    		<ul style="margin-top:40px;display:inline-block">
-    			<li class="trangle scen">
-    				<img src="images/icon1.png" height="68" width="68" alt="">
-    				<span>
-						<h2>客户关系管理</h2>
-						<p>售前团队通过与客户进行聊天、音视频通话来增加销售量；联系并记录客户信息。</p>
-    				</span>
-    			</li>
-    			<li class="trangle scen">
-    				<img src="images/icon2.png" height="68" width="68" alt="">
-					<span>
-						<h2>远程医疗</h2>
-						<p>为病人提供远程医生咨询服务；简单安全，降低服务成本，提高服务质量。</p>
-					</span>
-    			</li>
-    			<li class="trangle scen">
-    				<img src="images/icon3.png" height="68" width="68" alt="">
-					<span>
-						<h2>企业合作</h2>
-						<p>简化同事及和合作伙伴之间的合作；简单快速的网络会议以及组织和个人数据的交换。</p>
-					</span>
-    			</li>
-    			<li class="trangle scen">
-    				<img src="images/icon4.png" height="68" width="68" alt="">
-					<span>
-						<h2>社交网络</h2>
-						<p>为行业内的社交网络提供一个可信任的视频聊天功能。</p>
-					</span>
-    			</li>
-    			<li class="trangle scen">
-    				<img src="images/icon5.png" height="68" width="68" alt="">
-					<span>
-						<h2>物联网</h2>
-						<p>以集成的开放通讯方式实现信息化、智能化的网络管理，降低生产和维护的成本。</p>
-					</span>
-    			</li>
-    		</ul>
-    	</div>
-    </div>
-    <div class="p-box bg-grey" style="padding-bottom:0">
-    	<div class="content">
-    		<h1>专业的解决方案</h1>
-    		<h3>
-    			有视是基于下一代的WebRTC技术，面对各行业领域，我们的产品人员和工程师凭借丰富的经验，能够提供不同层次的解决方案，帮助企业和开发者以合理成本解决具体问题。
-    		</h3>
-    		<img src="images/ban1.png" height="271" width="410" alt="">
-    	</div>
-    </div>
-    <div class="p-box advantage">
-    	<div class="content">
-    		<span>我们的优势</span>
-    		<ul>
-    			<li>
-    				可扩展
-    			</li>
-    			<li>
-    				兼容Web，IOS,Android和PC端
-    			</li>
-    			<li>高级通讯功能</li>
-    			<li>丰富云端服务</li>
-    			<li>公有云/私有云服务器</li>
-    		</ul>
-    	</div>
-    </div>
-    <div class="p-box footer">
-    	<div class="content">
-    		<div class="f1">
-    			<h3>关于</h3>
-    			<ul>
-    				<li>
-    					<a href="">关于我们</a>
-    				</li>
-    				<li>
-    					<a href="">平台特性</a>
-    				</li>
-    			</ul>
-    		</div>
-    		<div class="f1">
-    			<h3>资源</h3>
-    			<ul>
-    				<li>
-    					<a href="">文档中心</a>
-    				</li>
-    				<li>
-    					<a href="">平台特性</a>
-    				</li>
-    			</ul>
-    		</div>
-    		<div class="f1">
-    			<h3>联系我们</h3>
-    			<ul>
-    				<li>
-    					500-640-5555
-    				</li>
-    				<li>
-    					地址：广州市海珠区昌岗中路
-    				</li>
-    			</ul>
-    		</div>
-    		<div class="f1">
-    			<!-- <img src="images/wechat.png" height="105" width="105" alt=""> -->
-    			<!-- <h5>关注我们</h5>
-    			<ul>
-    				<li>
-    					<img src="images/wechat.png" height="105" width="105" alt="">
-    				</li>
-    			</ul> -->
-    		</div>
-    	</div>
-    </div>
-</body>
-</html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>	<meta http-equiv="Content-Type" content="text/html; charset=gbk" />	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<title>资源共享平台图片素材_资源共享平台图片素材免费下载_资源共享平台背景素材_资源共享平台模板下载-我图网-so.ooopic.com</title>	<meta name="keywords" content="资源共享平台图片素材,资源共享平台素材下载,资源共享平台模板下载,资源共享平台背景图片,资源共享平台设计素材,资源共享平台矢量素材" />	<meta name="description" content="资源共享平台图片素材,资源共享平台素材下载,资源共享平台模板下载，资源共享平台背景图片，资源共享平台设计素材,资源共享平台矢量素材，资源共享平台图片素材免费下载,资源共享平台矢量图,资源共享平台图片素材下载，资源共享平台ps素材来我图网！" /><meta http-equiv="X-UA-Compatible" content="IE=Edge">	<meta name="renderer" content="webkit">	<script src="http://js.ooopic.com/js/jquery-1.7.1.min.js" ></script>	<link rel="stylesheet" type="text/css" href="http://js.ooopic.com/2015/css/base.2015.v2.3.css" />	<link rel="stylesheet" type="text/css" href="http://js.ooopic.com/2015/css/search/search.2015.v10.0.css" /><script type="text/javascript">var now=new Date();var beginTime=now.getTime();var obj={};	obj.picid = "11623158";	obj.exeCode = 2010;	obj.exeTime = "0.0199";	obj.loadCode = 3046;	obj.loadTime = 0;	obj.kid = "0";	obj.bigclassid = "0";	obj.smallclassid    = "0";	if("" > 0 || "" > 0){obj.page        = "-1";}else{obj.page        = "1";}</script></head><body><div id="header-top"><div class="header-top-m w1200"><div class="fl welcome"><ul class="welcome_ul"><li class="wel-li"><a href="http://www.ooopic.com" target="_blank" class="thisfirst">我图网首页</a><span>|</span></li><li class="wel-li"><a href="http://www.ooopic.com/sucaixiazai/" target="_blank">VIP免费素材</a> <span>|</span></li><li class="wel-li"><a href="http://www.ooopic.com/pptmuban/" target="_blank">PPT模板 </a><span>|</span></li><li class="more wel-li" style="position:relative"><a href="javascript:;" class="more_a">更多<b class="xiala"></b></a><ul class="moudle_more"><li ><a href="http://www.ooopic.com/shineisucai/" target="_blank">背景墙</a></li><li><a href="http://www.ooopic.com/pingmiansheji/" target="_blank">平面设计</a></li><li ><a href="http://www.ooopic.com/shipinsucai/" target="_blank">视频素材</a></li><li><a href="http://www.ooopic.com/taobaosucai/" target="_blank">淘宝素材</a></li><li><a href="http://www.ooopic.com/uisheji/" target="_blank">图标|UI设计</a></li><li ><a href="http://www.ooopic.com/shinei/" target="_blank">CAD图库</a></li><li><a href="http://www.ooopic.com/yangji/">样机</a></li><li><a href="http://www.ooopic.com/fuzhuangsheji/" target="_blank">服装设计</a></li><li><a href="http://www.ooopic.com/tupiansucai/" target="_blank">国内摄影图</a></li><li><a href="http://so.ooopic.com/sousuo/224/" target="_blank">背景素材</a></li></ul></li></ul></div><div class="user-info fr"><div class="t-vip fr user-t"><a href="http://user.ooopic.com/u/index.php?a=freevip"  rel="nofollow" target="_blank">特惠VIP<span>（1）</span></a><em></em></div><div class="t-recharge fr user-t"><a href="javascript:void(0);" class="change">充值</a><i></i><em></em><div class="recharge-m show-more"><a rel="nofollow" href="http://user.ooopic.com/u/index.php?a=pay#2" target="_blank">充值我图币</a><a rel="nofollow" href="http://user.ooopic.com/u/index.php?a=freevip" target="_blank">获取VIP</a><a rel="nofollow" href="http://user.ooopic.com/u/index.php?a=paydiscount&from=0" target="_blank">获得7折特权</a></div></div><div class="t-login fr user-t"><a rel="nofollow" href="http://user.ooopic.com/user/login.php" class="org">请登录</a><a rel="nofollow" href="http://user.ooopic.com/user/reg.php"  rel="nofollow">免费注册</a></div></div></div></div><link href="http://js.ooopic.com/2015/css/topCategory.2015.v1.0.css" rel="stylesheet" type="text/css" /><style>.searchbar .btn-select-search i{	background:url(http://icon.ooopic.com/2015/image/search/search-all-new.png) no-repeat -414px -35px;"	}	</style>	<div id="header" style="margin-bottom:0px">	<div class="head w1200 clearfix"  style="padding-bottom:15px"><div class="fl logo">	<a href="http://www.ooopic.com/" style="background:url(http://icon.ooopic.com/2015/image/search/search-all-new.png) no-repeat 0 -24px;width:395px"></a></div>	<div class="fl search" style="margin-left:120px">	<div class="searchbar clearfix" style="width:790px">	<div class="btn-select-search fl">	<div class="current-select" data-index="0">全部<i ></i>	</div>	<div class="select-list">	<a class="active" href="javascript:void(0);" data-index="0" data-title="全部" style="display:">全部</a>	<a  href="javascript:void(0);" data-index="1006" data-title="用户名" >用户名</a>	<a  href="javascript:void(0);" data-index="1007" data-title="图片编号" >图片编号</a>	<a  href="javascript:void(0);" data-index="500" data-title="标题" >标题</a>	</div>	</div>	<input id="topkeyword" type="text"  value="资源共享平台" class="fl"  style="width:400px" />	<div class="topkeywordlist" style="width:657px"></div>	<input id="searchbutton" type="button" class="fl" value="搜索" />	<div class="search-all fl">	<input id="soall" type="submit" style="display:none">	</div>	</div>	<div class="search-tags">	<a href="http://so.ooopic.com/sousuo/232/" target="_blank">夏天</a>	<a href="http://so.ooopic.com/sousuo/69/" target="_blank">端午节</a>	<a href="http://so.ooopic.com/sousuo/16060154/" target="_blank">两学一做</a>	<a href="http://so.ooopic.com/sousuo/2853562/" target="_blank">小升初简历</a>	<a href="http://so.ooopic.com/sousuo/2002674/" target="_blank">答辩ppt</a>	<a href="http://so.ooopic.com/sousuo/9931/" target="_blank">毕业设计</a>	<a href="http://so.ooopic.com/sousuo/2082955/" target="_blank">3d背景墙</a>	<a href="http://so.ooopic.com/sousuo/4959534/" target="_blank">淘宝详情页</a></div>	</div>	</div>	</div>	<script src="http://js.ooopic.com/2015/js/weili/topCategory.2015.v1.1.js"></script><div id="floatHeader" ><div class="area"><a href="http://www.ooopic.com/"><div class="floatLogo"></div></a><div class="floatSearchArea fl position-r floatSearchbar"><div class="floatSearchInput"><div class="floatType fl" data-index="0" data-title="全部">全部<i></i></div><ul class="floatTypeList"><li data-index="0" data-title="全部" class="none">全部</li><li data-index="1006" data-title="用户名">用户名</li><li data-index="1007" data-title="图片编号">图片编号</li><li data-index="500" data-title="标题">标题</li></ul><input type="text" id="floatTopkeyword" class="fl" /></div><div id="floatSearchBtn">搜索</div><div class="topkeywordlist" style="width:580px;top:44px;"></div></div></div></div><div id="wrap" class="clearfix"><!--导航--><div id="daohang" class="f14"><span style="float:left;"><a href="http://so.ooopic.com">素材下载</a>&nbsp;>&nbsp;<a href="http://so.ooopic.com/sousuo/11623158/">资源共享平台</a></span></div><div id="cateinfo"><div class="kid_category"><a href="http://so.ooopic.com/sousuo/11623158/" title="全部"     class="on" >全部</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-10-0_0____0_ooo_0_1_0.html" title="平面设计稿"     class="" >平面设计稿</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-80-0_0____0_ooo_0_1_0.html" title="视频素材"     class="" >视频素材</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-50-0_0____0_ooo_0_1_0.html" title="PPT"     class="" >PPT</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-60-0_0____0_ooo_0_1_0.html" title="淘宝素材"     class="" >淘宝素材</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-70-0_0____0_ooo_0_1_0.html" title="背景墙"     class="" >背景墙</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-15-0_0____0_ooo_0_1_0.html" title="样机素材"     class="" >样机素材</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-20-0_0____0_ooo_0_1_0.html" title="摄影图"     class="" >摄影图</a><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-0-0_0____37_ooo___.html" title="VIP会员素材"     class="" >VIP会员素材</a><a href="http://weili.ooopic.com/weili/background_img.php?a=index" title="背景素材"     class="" >背景素材</a></div><div class="categorys"><a href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-127-0_0____0_ooo_0_1_0.html"  >图标|UI设计<span>(1)</span></a></div></div><div id="order" style="height:52px;" class="tc f14" ><div class="orderleft fl"><a orderbydata="1" class="on fl" href="http://so.ooopic.com/sousuo/11623158/">综合排序</a><a orderbydata="2" class=" fl new-load" href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-0-0_0_timed___0_ooo_0_1_0.html">新上传<i ></i></a><a orderbydata="3" class=" fl hot-download" href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-0-0_0_dnumd___0_ooo_0_1_0.html">热门下载<i ></i></a><span class="price fl"><span >价格</span><i ></i><div class="sort"><a orderbydata="4" class="current" href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-0-0_0_wotuba___0_ooo_0_1_0.html">价格从低到高</a><a orderbydata="5" class="top" href="http://so.ooopic.com/search-d7cad4b4b9b2cfedc6bdcca8-0-0_0_wotubd___0_ooo_0_1_0.html">价格从高到低</a></div></span><span class="price-zone fl"><input type="text" placeholder="￥" maxlength="6" class="text-price wotub_low"  /><i class="center-line">-</i><input type="text" placeholder="￥" maxlength="6" class="text-price wotub_height"  /><!--<input type="submit" class="sub-but" value="确定"/>--><a class="sub-but wotubSearch" style="display:inline-block;display:none;padding:0;margin-left:10px;" href="javascript:void(0)">确定</a></span></div><div class="orderright fr"><span class="sumyema fl"><font color="#3AA631">1</font>/1页</span></div><script type="text/javascript">$(window).load(function(e){	$('.orderleft.fl a').on('click', function(e) {		e.stopPropagation();$.ajax({			type: "Get",			url: "http://ajax.ooopic.com/clicksearchorderby.php",			jsonp: "callback",			dataType: "jsonp",			data:{orderby:$(this).attr('orderbydata')},			success: function (result) {}		});	});});	</script>	</div>	<div id="ranking" >	<div class="ranking-m clearfix">	<div class="list" style="position:relative;">	<div picid="13368107" style="height:190px;overflow:hidden;" class="list-img">	<a href="http://www.ooopic.com/uisheji/13368107.html" picid="13368107" target="_blank">	<img alt="迅雷方舟图片" class="lazy" data-original="http://58pic.ooopic.com/58pic/12/52/93/33q58PICgyG.jpg!qt202" src="http://icon.ooopic.com/image/loading_class_weili.gif" width="202px" />	</a>	</div>	<div class="list-info">	<p>	<a href="http://www.ooopic.com/uisheji/13368107.html" picid="13368107" target="_blank">迅雷方舟图片</a>	</p>	<p>下载 <span>0</span> 次</p>	</div>	</div>	</div>	</div>	<div id="pagelist"></div>	<div id="guess-youlike">	<h3>相关搜索</h3>	<div class="ylink clearfix">	<a target='blank' href='http://so.ooopic.com/sousuo/8459/'>快乐共享</a>	<a target='blank' href='http://so.ooopic.com/sousuo/8703/'>共享和谐</a>	<a target='blank' href='http://so.ooopic.com/sousuo/10712/'>共享</a>	<a target='blank' href='http://so.ooopic.com/sousuo/12470/'>资源</a>	<a target='blank' href='http://so.ooopic.com/sousuo/12636/'>人力资源</a>	<a target='blank' href='http://so.ooopic.com/sousuo/13025/'>平台</a>	<a target='blank' href='http://so.ooopic.com/sousuo/13648/'>设计平台</a>	<a target='blank' href='http://so.ooopic.com/sousuo/14235/'>设计共享</a>	<a target='blank' href='http://so.ooopic.com/sousuo/15463/'>欢乐共享</a>	</div>	</div>	</div>	<div id="rightButton" class="fixed clear" >	<div class="sidebar none" style="position:relative;">	<a href="http://tj.ooopic.com/?m=kefutj&id=800015021&type=ONLINE_SERVICE_QQ&page=0" data-id="800015021" target="_blank" class="qqkefu">	<i class="qqkefu-i"></i>	<span class="lia">QQ咨询</span>	<span class="colorA3 ft12 lib">800015021</span>	</a>	<a href="javascript:;" style="border-bottom: 1px solid #d9d9d9;" class="quanguorexian">	<i class="quanguorexian-i"></i>	<span class="lia">全国咨询热线</span>	</a>	<a href="http://www.ooopic.com/complain.php" target="_blank" rel="nofollow" style="height:20px;" class="quanguorexian complain"><span class="lia">投诉建议</span></a>	<a class="collectkefu tc f14" style="display:none">	<span class="fl collect-son1">收起</span>	<span class="fl collect-son2">>></span>	</a>	</div>	<div class="newsidebar f14 tc none">	<a class="top1" href="http://tj.ooopic.com/?m=kefutj&id=800015021&type=ONLINE_SERVICE_QQ&page=0" target="_blank">客服</a>	<a href="http://tj.ooopic.com/?m=kefutj&id=800015021&type=ONLINE_SERVICE_QQ&page=0" target="_blank" class="qqhover">	<div class="fl qqlogoleft"></div>	<div class="fl qqinforight">	<div class="qqzhixun">QQ咨询</div>	<div class="qqhaoma f12">800015021</div>	</div>	</a>	<a class="top2">	<div class="tellogo">电话</div>	<div class="tel1hover">	<div class="telhover"></div>	</div>	</a>	<a class="top3" href="http://www.ooopic.com/complain.php" target="_blank">建议</a>	</div>	</div>	<a href="#" id="backToTop"><span></span><div class="backTopinfo">顶部</div></a>	<script type="text/javascript">	$(function(){		$(".phone_online,.right_tip_phone").hover(function(){			$(".right_tip_phone").show();},function(){				$(".right_tip_phone").stop().hide();});				$(".rightService_aclick").click(function (){					var id = $(this).attr("data-id");					type = "ONLINE_SERVICE_QQ";					page = 0;					sourceUrl = "";					$.getJSON("http://tj.ooopic.com/index.php?m=chuangyishengchanPV&id="+id+"&type="+type+"&page="+page+"&source_url="+sourceUrl+"&callback=?&time="+(new Date()).getTime());					});					});					</script>					<div id="footer" style="border-top: 1px solid #e1e1e1;">					<div class="foot clearfix">					<div class="fl fsafe"></div>					<div class="wtnum fl">					<h2>专注正版设计作品交易平台</h2>					<p>我图网创办于2008年，老品牌值得信赖</p>					<p>目前拥有会员<span id="uc">15,569,032</span>人，作品总数<span id="num_sjg">2,411,798</span>张</p>					<p>在线客服:<a href="http://b.qq.com/webc.htm?new=0&sid=800015021&o=www.ooopic.com&q=7" target="_blank" class="qqtalk" rel="nofollow"></a>					热线电话:400-600-8526</p>					</div>					<dl class="fl customer-guide">					<dt>客户指南</dt>					<dd>					<a rel="nofollow" href="http://www.ooopic.com/jieshao.html" rel="nofollow" target="_blank">关于我们</a>					</dd>					<dd>					<a rel="nofollow" href="http://user.ooopic.com/u/index.php?com=info&mod=status#3" target="_blank">实名认证</a>					</dd>					<dd>					<a rel="nofollow" href="http://www.ooopic.com/shengming.html" rel="nofollow" target="_blank">版权声明</a>					</dd>					<dd>					<a rel="nofollow" href="http://user.ooopic.com/u/index.php?com=seller" target="_blank">出售作品</a>					</dd>					<dd>					<a rel="nofollow" href="http://www.ooopic.com/shengming.html" target="_blank">投诉举报</a>					</dd>					<dd>					<a rel="nofollow" href="http://user.ooopic.com/u/index.php?a=pay#2" target="_blank">账号充值</a>					</dd>					<dd>					<a rel="nofollow" href="http://www.ooopic.com/gonggao/533/1.html" target="_blank">联系我们</a>					</dd>					<dd>					<a rel="nofollow" href="http://www.ooopic.com/tupian/" target="_blank">图片下载</a>					</dd>					</dl>					<dl class="safe fl">					<dt>安全认证</dt>					<dd class="aqlm"></dd>					<dd class="sjs"></dd>					</dl>					</div>					</div>					<div id="copyright">					<div class="m">					<div class="fl pz"><p>					<i class="zb"></i>正版授权</p><p>					<i class="bz"></i>质量保障</p><p>					<i class="tx"></i>贴心售后</p>					</div>					<div class="fr copy">Copyright &copy; 2008-2014我图网沪ICP备08009396号 用时：0.0199					<span id="opentime"></span>秒&nbsp;V<br>若您发现您的权利被侵害，请发起知识产权投诉。tousu@ooopic.com</div>					</div>					</div>					</body>					<script src="http://js.ooopic.com/2015/js/base.2015.v2.3.js" ></script>					<script src="http://js.ooopic.com/2015/js/search/search.2015.v8.0.js" ></script>					</html>
