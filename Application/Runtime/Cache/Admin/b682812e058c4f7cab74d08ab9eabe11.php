@@ -5,10 +5,17 @@
     <title>个人主页</title>
     <meta name="Keywords" content="大融小贷 个人主页" />
     <meta name="Description" content="大融小贷 个人主页" />
+<<<<<<< HEAD
+    <link href="/Public/css/UserCSS.css" rel="stylesheet" type="text/css" />
+    <script src="/Public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/Public/js/ops.js" type="text/javascript"></script>
+    <script src="/Public/js/UserJS.js" type="text/javascript"></script>
+=======
     <link href="/RFS/Public/css/UserCSS.css" rel="stylesheet" type="text/css" />
     <script src="/RFS/Public/js/jquery.min.js" type="text/javascript"></script>
     <script src="/RFS/Public/js/ops.js" type="text/javascript"></script>
     <script src="/RFS/Public/js/UserJS.js" type="text/javascript"></script>
+>>>>>>> c1af5e7330143bdfa316b9c9eb555bb4c2522e25
 </head>
 <body>
     <div class="row" style="margin-top: 10px;">
@@ -20,30 +27,48 @@
                     <h3 class="t1">
                         我的大融小贷<span title="折叠"></span></h3>
                     <ul class="sub">
+<<<<<<< HEAD
+                        <li><a class="current" href="/index.php/Admin/Admin/index">个人主页</a></li>
+                        <li><a href="/index.php/Admin/Admin/personal">个人资料</a></li>
+                        <li><a href="/index.php/Admin/Admin/information">认证管理</a></li>
+=======
                         <li><a class="current" href="/RFS/index.php/Admin/Admin/index">个人主页</a></li>
                         <li><a href="/RFS/index.php/Admin/Admin/personal">个人资料</a></li>
                         <li><a href="/RFS/index.php/Admin/Admin/information">认证管理</a></li>
+>>>>>>> c1af5e7330143bdfa316b9c9eb555bb4c2522e25
                     </ul>
                 </li>
                 <li class="item" id="user_menu_funds" name="user_menu_funds">
                     <h3 class="t2">
                         资源管理<span title="折叠"></span></h3>
                     <ul class="sub">
+<<<<<<< HEAD
+                         <li><a href="/index.php/Admin/Admin/capital">资源分类</a></li>
+=======
                          <li><a href="/RFS/index.php/Admin/Admin/capital">资源分类</a></li>
+>>>>>>> c1af5e7330143bdfa316b9c9eb555bb4c2522e25
                     </ul>
                 </li>
                 <li class="item" id="user_menu_invest" name="user_menu_invest">
                     <h3 class="t4">
                         理财管理<span title="折叠"></span></h3>
                     <ul class="sub">
+<<<<<<< HEAD
+                       <li><a href="/index.php/Admin/Admin/investment">我的投资</a></li>
+=======
                        <li><a href="/RFS/index.php/Admin/Admin/investment">我的投资</a></li>
+>>>>>>> c1af5e7330143bdfa316b9c9eb555bb4c2522e25
                     </ul>
                 </li>
                 <li class="item" id="user_menu_loan" name="user_menu_loan">
                     <h3 class="t3">
                         贷款管理<a name="user_login"></a><span title="折叠"></span></h3>
                     <ul class="sub">
+<<<<<<< HEAD
+                        <li><a  href="/index.php/Admin/Admin/loan">我的贷款</a></li>
+=======
                         <li><a  href="/RFS/index.php/Admin/Admin/loan">我的贷款</a></li>
+>>>>>>> c1af5e7330143bdfa316b9c9eb555bb4c2522e25
                     </ul>
                 </li>
             </ul>
@@ -101,7 +126,11 @@
                     <div class="info">
                         <ul class="info-img">
                             <li>
+<<<<<<< HEAD
+                                <img src="/Public/images/tx_img.gif" class="avatar" /></li></ul>
+=======
                                 <img src="/RFS/Public/images/tx_img.gif" class="avatar" /></li></ul>
+>>>>>>> c1af5e7330143bdfa316b9c9eb555bb4c2522e25
                         <div class="info-main">
                             <div class="row">
                                 <label>

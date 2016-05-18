@@ -17,10 +17,7 @@
 				show_loading();
 				var myReg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/; //邮件正则
 				if($('#email').val() == ''){
-					show_err_msg('邮箱还没填呢！');	
-					$('#email').focus();
-				}else if(!myReg.test($('#email').val())){
-					show_err_msg('您的邮箱格式错咯！');
+					show_err_msg('用户名还没填呢！');	
 					$('#email').focus();
 				}else if($('#password').val() == ''){
 					show_err_msg('密码还没填呢！');
