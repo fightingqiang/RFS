@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en" class="no-js">
 
 <head>
@@ -11,17 +11,17 @@
 
 <!-- CSS -->
 
-<link rel="stylesheet" href="__PUBLIC__/css/supersized.css">
-<link rel="stylesheet" href="__PUBLIC__/css/login.css">
-<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/Public/css/supersized.css">
+<link rel="stylesheet" href="/Public/css/login.css">
+<link href="/Public/css/bootstrap.min.css" rel="stylesheet">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 	<script src="js/html5.js"></script>
 <![endif]-->
-<script src="__PUBLIC__/js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/js/jquery.form.js"></script>
-<script type="text/javascript" src="__PUBLIC__/js/tooltips.js"></script>
-<script type="text/javascript" src="__PUBLIC__/js/login.js"></script>
+<script src="/Public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="/Public/js/jquery.form.js"></script>
+<script type="text/javascript" src="/Public/js/tooltips.js"></script>
+<script type="text/javascript" src="/Public/js/login.js"></script>
 </head>
 
 <body>
@@ -30,8 +30,9 @@
 	<div class="main_box">
 		<div class="login_box">
 			<div class="login_logo">
-				<img src="__PUBLIC__/images/logo.png" >
+				<img src="/Public/images/logo.png" >
 			</div>
+		
 			<div class="login_form">
 				<form action="index.html" id="login_form" method="post">
 					<div class="form-group">
@@ -63,8 +64,8 @@
 
 <!-- Javascript -->
 
-<script src="__PUBLIC__/js/supersized.3.2.7.min.js"></script>
-<script src="__PUBLIC__/js/supersized-init.js"></script>
-<script src="__PUBLIC__/js/scripts.js"></script>
+<script src="/Public/js/supersized.3.2.7.min.js"></script>
+<script src="/Public/js/supersized-init.js"></script>
+<script src="/Public/js/scripts.js"></script>
 </body>
 </html>
