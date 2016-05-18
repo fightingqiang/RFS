@@ -40,3 +40,39 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
 ERR: 无法加载模块:RFS
 
+[ 2016-05-18T14:32:35+08:00 ] 127.0.0.1 /RFS/Public/images/logo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+ERR: 无法加载模块:RFS
+
+[ 2016-05-18T14:32:36+08:00 ] 127.0.0.1 /RFS/Public/images/logo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+ERR: 无法加载模块:RFS
+
+[ 2016-05-18T14:32:36+08:00 ] 127.0.0.1 /RFS/Public/images/logo2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+ERR: 无法加载模块:RFS
+
+[ 2016-05-18T14:32:45+08:00 ] 127.0.0.1 /RFS/Public/images/logo2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+ERR: 无法加载模块:RFS
+
+[ 2016-05-18T14:32:55+08:00 ] 127.0.0.1 /RFS/Public/images/logo2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+ERR: 无法加载模块:RFS
+
+[ 2016-05-18T14:33:00+08:00 ] 127.0.0.1 /RFS/Public/images/logo2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+ERR: 无法加载模块:RFS
+
