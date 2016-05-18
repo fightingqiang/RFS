@@ -26,6 +26,8 @@ jQuery(function($){
                                  {image : '/Public/images/backgrounds/2.jpg'},
 								 {image : '/Public/images/backgrounds/3.jpg'}
 
+
+
                        ]
 
     });
